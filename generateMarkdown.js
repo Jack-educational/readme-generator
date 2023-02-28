@@ -1,5 +1,5 @@
 function generateMarkdown(data) {
-    return `# ${data.title}
+    return `# ${data.title} ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
   
   ## Description
   ${data.description}
@@ -19,7 +19,7 @@ function generateMarkdown(data) {
   ${data.usage}
   
   ## License
-  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+  
   This application is covered under the ${data.license} license.
   
   ## Contributing
