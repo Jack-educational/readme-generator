@@ -1,0 +1,28 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "When a user is prompted for information about the application repository then a high-quality, professional README.md is generated",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jack-educational/readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "markdown",
+    "bootcamp",
+    "automation"
+  ],
+  "author": "Jack Turner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jack-educational/readme-generator/issues"
+  },
+  "homepage": "https://github.com/Jack-educational/readme-generator#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
